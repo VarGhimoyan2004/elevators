@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator Simulation</title>
+    <style>
+#building {  
+  display: flex;
+  flex-direction: column;
+}
+.floor {
+  height: 50px;  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+}
+.elevator {  width: 50px;
+  height: 20px;  background-color: yellow;
+  position: absolute;  transition: top 2s ease;
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+}
+#elevator1 {
+  margin-left: 100px;
+}
+#elevator2 {
+  margin-left: 200px;
+}
+#elevator3 {
+  margin-left: 300px;
+}
+    </style>
+</head>
+<body>
+    <div id="building">
+      <div class="floor" data-floor="1">Floor 1</div>
+      <div class="floor" data-floor="2">Floor 2</div>
+      <div class="floor" data-floor="3">Floor 3</div>
+      <div class="floor" data-floor="4">Floor 4</div>
+      <div class="floor" data-floor="5">Floor 5</div>
+      <div class="floor" data-floor="6">Floor 6</div>
+      <div class="floor" data-floor="7">Floor 7</div>
+      <div class="floor" data-floor="8">Floor 8</div>
+      <div class="floor" data-floor="9">Floor 9</div>
+      <div class="floor" data-floor="10">Floor 10</div>
+      <div class="floor" data-floor="11">Floor 11</div>
+      <div class="floor" data-floor="12">Floor 12</div>
+      <div class="floor" data-floor="13">Floor 13</div>
+      <div class="floor" data-floor="14">Floor 14</div>
+      <div class="floor" data-floor="15">Floor 15</div>
+      <div class="floor" data-floor="16">Floor 16</div>
+      <div class="floor" data-floor="17">Floor 17</div>
+      <div class="floor" data-floor="18">Floor 18</div>
+      <div class="floor" data-floor="19">Floor 19</div>
+      <div class="floor" data-floor="20">Floor 20</div>
+      
+      <div class="elevator" id="elevator1">E1</div>
+      <div class="elevator" id="elevator2">E2</div>
+      <div class="elevator" id="elevator3">E3</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
